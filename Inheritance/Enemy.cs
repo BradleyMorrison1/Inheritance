@@ -9,5 +9,12 @@ namespace Inheritance
     class Enemy : GameCharacter
     {
 
+        public Enemy()
+        {
+            x = 50;
+            y = 80;
+            health = 100;
+            name = "Villain Smith";
+        }
     }
 }

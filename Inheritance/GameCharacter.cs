@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    class GameCharacter
+    abstract class GameCharacter
     {
         // fields
         public string name;
@@ -19,7 +19,7 @@ namespace Inheritance
         {
             Console.WriteLine("\n|Name: " + name);
             Console.WriteLine("|Health: " + health);
-            Console.WriteLine("|X: " + x + " |Y: " + y + "\n");
+            Console.WriteLine("|Coordinates (" + x + ", " + y + ")");
         }
     }
 }
